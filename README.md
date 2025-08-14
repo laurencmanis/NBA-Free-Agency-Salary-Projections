@@ -54,6 +54,7 @@ Predict salaries for players entering free agency, expressed as a percentage of 
 - Integrate qualitative/contextual variables (injuries, leadership, role changes).
 - Expand evaluation to all 2025 and prior free agent classes.
 - Incorporate player projections to reflect forward-looking team decision-making.
+- Refine model for better calibration near the tails.
 
 ## Results & Visualization
 ![Salary Prediction Scatterplot](Visualizations/Visualization.png)
