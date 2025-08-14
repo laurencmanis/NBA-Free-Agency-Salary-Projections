@@ -28,8 +28,12 @@ Predict salaries for players entering free agency, expressed as a percentage of 
 - RMSE – Penalizes large misses.
 
 ## Best Model
-**Random Forest** – R² = 0.74, MAE = 0.034, RMSE = 0.047 (cap %), ~$4M average error using 2025–26 cap.
-- Top Features: % Games Started, Minutes Per Game, Years of Experience.
+**Random Forest** 
+  - R² = 0.74
+  - MAE = 0.034
+  - RMSE = 0.047 (cap %)
+  - ~$4M average error using 2025–26 cap.
+- **Top Features**: % Games Started, Minutes Per Game, Years of Experience.
 
 ## Assumptions
 - Salaries normalized by cap % for comparability.
@@ -50,4 +54,7 @@ Predict salaries for players entering free agency, expressed as a percentage of 
 - Integrate qualitative/contextual variables (injuries, leadership, role changes).
 - Expand evaluation to all 2025 and prior free agent classes.
 - Incorporate player projections to reflect forward-looking team decision-making.
+
+## Results & Visualization
+![Salary Prediction Scatterplot](Visualizations/Visualization.png)
 
